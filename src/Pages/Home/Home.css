@@ -1,7 +1,57 @@
-.home-body{
-    padding: 4rem;
+.home-nav{
+    flex-grow: 1 ; 
+    position:sticky; 
+    top: 0;
+    z-index:5
 }
 
 .home-body{
     text-align: center;
+}
+
+.home-carousel{
+    width: 100%;
+}
+
+.home-contents{
+    padding-top: 4rem;
+}
+
+.home-mail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-mail-container{
+    width: 50%;
+}
+
+.home-mail-title{
+    padding: 10px 0px;
+    background-color: gold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-interest{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid grey;
+    padding: 20px 0px 20px 0px
+}
+
+.form-interest h6{
+    text-transform: uppercase;
+}
+
+.form-privacy{
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .home-mail-container{
+        width: 100%;
+        padding: 0px 30px;
+    }
 }
